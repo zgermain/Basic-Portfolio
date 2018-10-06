@@ -1,34 +1,178 @@
 body{
-    background-image: url('/Basic-Portfolio/assets/images/ep_naturalblack.png');
+    background-image: url('/Basic-Portfolio/assets/images/dust_scratches.png');
     /* background-repeat: no-repeat; */
     /* background-size: 100% */
 }
 
 header{
+    /* position:fixed; */
     background-color: white;
-    max-width: 960px;
-    margin: 0 auto 0 auto;
+    /* max-width: 960px; */
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid#cccccc;
+    
 }
 
+footer{
+    clear:both;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+    width:100%;
+    height:30px;
+}
+
+hr{
+    /* color: grey; */
+    background-color: #dddddd;
+    height: 2px;
+    border: 0
+}
+
+nav{
+    
+    color: #777777;
+    vertical-align: middle;
+    padding: 25px 0px 0px 0px;
+    font-family: "Arial"
+}
+
+h1{
+    font-family: "Georgia"
+}
+
+p{
+    font-family: "Arial";
+    color: #777777;
+    line-height: 2
+}
+
+
+textarea{
+    width:100%
+}
+
+.menu{
+    max-width:960px;
+    margin: 0px auto 0px auto;
+}
+
+
 .container{
-    max-width: 960px;
-    border: 10px solid red;
+    max-width: 918px;
+    border: 1px solid #dddddd;
+    padding: 20px 20px 20px 20px;
     margin: 0 auto 0 auto;
-    background-color: aliceblue
+    background-color: white;
+    /* height: 600px; */
 }
 
 .clearfix{
     clear:both
 }
 
-#Title{
+.wrap{
     float: left;
-    background-color: teal;
-    padding: 20px;
-    
+    /* position: absolute; */
 }
 
-#About, #Portfolio, #Contact{
-    float: right;
-    width: 10%
+.pagetitle{
+    color:#4aaaa5;
 }
+
+.forminput{
+    width:100%;
+    height: 30px;
+}
+
+.imagesection{
+    position: relative;
+    top:30px;
+    /* border:5px solid red; */
+}
+
+.imagecontainer{
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.stockphoto{
+    /* position: absolute; */
+    width: 286px;
+    height: 175px;
+}
+
+.overlay{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: "Georgia";
+    font-size: 20px;
+    text-align: center;
+    padding:10px 0px;
+    bottom: 20px;
+    width: 100%
+}
+
+
+
+#Title{
+    /* float: left; */
+    /* background-color: #4aaaa5; */
+    /* padding: 15px; */
+    color: white
+}
+
+#titlebox{
+    float: left;
+    background-color:#4aaaa5;
+    padding: 0px 20px 0px 20px;
+}
+
+#navbox{
+    float: right;
+    margin: auto;
+}
+
+#face{
+    margin: 20px 20px 20px 0px;
+}
+
+#text{
+    margin: 20px 0px 0px 0px;
+}
+#img1{
+    /* position: absolute; */
+}
+
+#submitbutton{
+background-color:#4aaaa5;
+margin:10px 0px 0px 0px;
+border: none;
+padding: 10px 20px 10px 20px;
+color: white;
+font-family: "arial"
+}
+
+#submitbutton:hover{
+background-color:#a5d3d1;
+    color: #15504d
+}
+
+#copyright{
+    text-align: center;
+    padding: 4px;
+    color: white;
+    font-family: "arial";
+    font-size: small
+}
+/* #About, #Portfolio, #Contact{ */
+    /* float: right; */
+    /* width: 10%; */
+    /* height: auto; */
+/* } */
