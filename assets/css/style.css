@@ -49,6 +49,10 @@ p{
     line-height: 2;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 textarea{
     width:100%;
