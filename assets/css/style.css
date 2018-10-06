@@ -10,12 +10,12 @@ header{
     /* max-width: 960px; */
     margin: 0 auto 20px auto;
     border-bottom: 1px solid#cccccc;
-    
+
 }
 
 footer{
     clear:both;
-    position:absolute;
+    position:fixed;
     bottom:0;
     left:0;
     background: #666666;
@@ -46,12 +46,12 @@ h1{
 p{
     font-family: "Arial";
     color: #777777;
-    line-height: 2
+    line-height: 2;
 }
 
 
 textarea{
-    width:100%
+    width:100%;
 }
 
 .menu{
@@ -70,7 +70,7 @@ textarea{
 }
 
 .clearfix{
-    clear:both
+    clear:both;
 }
 
 .wrap{
@@ -125,7 +125,7 @@ textarea{
     /* float: left; */
     /* background-color: #4aaaa5; */
     /* padding: 15px; */
-    color: white
+    color: white;
 }
 
 #titlebox{
@@ -143,12 +143,10 @@ textarea{
     margin: 20px 20px 20px 0px;
 }
 
-#text{
+/* #text{
     margin: 20px 0px 0px 0px;
-}
-#img1{
-    /* position: absolute; */
-}
+} */
+
 
 #submitbutton{
 background-color:#4aaaa5;
@@ -156,12 +154,12 @@ margin:10px 0px 0px 0px;
 border: none;
 padding: 10px 20px 10px 20px;
 color: white;
-font-family: "arial"
+font-family: "Arial";
 }
 
 #submitbutton:hover{
 background-color:#a5d3d1;
-    color: #15504d
+    color: #15504d;
 }
 
 #copyright{
@@ -169,7 +167,7 @@ background-color:#a5d3d1;
     padding: 4px;
     color: white;
     font-family: "arial";
-    font-size: small
+    font-size: small;
 }
 /* #About, #Portfolio, #Contact{ */
     /* float: right; */
